@@ -1,4 +1,6 @@
 # SOLID-Principles_2_-Open-Closed-Principle-OCP-
+
+#Software entities (classes, modules, functions, etc.) should be open for extension,but closed for modification
 from math import pi
 class Shape:
   def __init__(self, shape_type, **kwargs):
